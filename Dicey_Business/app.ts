@@ -1,7 +1,7 @@
 let container = <HTMLDivElement>document.querySelector('#div-container')
-let dieButton = <HTMLDivElement>document.getElementById('die-generator');
-let rollDieButton = <HTMLDivElement>document.getElementById('roll-die-button');
-let sumDieButton = <HTMLDivElement>document.getElementById('sum-dice-button');
+let dieButton = <HTMLButtonElement>document.getElementById('die-generator');
+let rollDieButton = <HTMLButtonElement>document.getElementById('roll-die-button');
+let sumDieButton = <HTMLButtonElement>document.getElementById('sum-dice-button');
 let dieArray: Die[] = [];
 
 class Die {
